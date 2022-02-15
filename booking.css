@@ -1,0 +1,32 @@
+body{
+    padding: 2rem;
+    margin-top: 4rem
+
+}
+.mi1{
+    width: 50%;
+    margin: auto;
+}
+.mar2   {
+    margin-top: 1rem;
+}
+.ggap{
+    column-gap: 0px;
+}
+.fim {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+.bim img{
+    width: 15%;
+    height: auto;
+    margin-right: 5%;
+}
+.bmg{
+    margin-left: 100px;
+}
+
+.mi2{
+    margin-top: 40px;
+}
