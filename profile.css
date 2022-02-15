@@ -1,6 +1,15 @@
-body {
+.body {
+    width: 100%;
     padding: 1rem;
     background: #DFDCDC;
+}
+
+.header {
+    width: 100%;
+    height: 56px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .ts1 {
