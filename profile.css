@@ -1,0 +1,140 @@
+body {
+    padding: 1rem;
+    background: #DFDCDC;
+}
+
+.ts1 {
+    padding: 1rem;
+}
+
+.fim {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+.mar2 {
+    padding-left: 15rem;
+    padding-top: 1rem;
+}
+
+.mar2 h1 {
+    color: rgb(19, 13, 68);
+}
+
+.mar2 p {
+    color: rgb(75, 75, 75);
+}
+
+.sna a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.stim img {
+    width: 20%;
+    margin-left: -2rem;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+}
+
+.stim p {
+    text-decoration: underline;
+    color: rgb(115, 195, 226);
+}
+
+.vl {
+    border-left: 2px solid rgb(134, 134, 134);
+    height: 100px;
+}
+
+.fim1 {
+    float: left;
+    height: auto;
+    width: 100px;
+    margin-top: -1rem;
+}
+
+.mp1 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.mpt {
+    padding-top: 4rem;
+}
+
+.tr2 img {
+    width: 30%;
+    margin-top: -1rem;
+}
+
+.greybg {
+    background: rgb(218, 218, 218);
+    padding: 2px;
+    padding-top: 10px;
+    padding-left: 50px;
+    border-radius: 5px;
+    width: 70%;
+    margin-top: 2rem;
+}
+
+.faq1 {
+    width: 80%
+}
+
+.sn2 {
+    padding-top: 5rem;
+}
+
+.sna2 a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.col-4 {
+    background: rgb(248, 248, 248);
+    border: 0.2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px rgba(231, 231, 231, 0.562);
+    height: 120vh;
+    padding: 5rem;
+}
+
+.marg5 {
+    margin-left: 2rem;
+}
+
+.inmrg5 input {
+    width: 90%;
+    border: none;
+    padding: 10px;
+}
+
+.btnl button {
+    width: 90%;
+    background: #fff;
+    text-align: left;
+}
+.wit{
+    width: 90%;
+}
+ .btz{
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding: 4px;
+ }
+.sq{
+ height: 300px;
+ width: 90%;
+ background: #fff;
+
+}
+
+.btl-1{
+    width: 90%;
+}
+
