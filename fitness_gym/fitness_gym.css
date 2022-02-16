@@ -12,9 +12,6 @@ body {
 }
 .header {
     width: 100%;
-}
-iframe {
-    width: 100%;
     height: 56px;
     position: sticky;
     top: 0;

@@ -9,7 +9,7 @@ body {
     font-weight: normal;
     line-height: 1.42857143;
 }
-iframe {
+.header {
     width: 100%;
     height: 56px;
     position: sticky;
