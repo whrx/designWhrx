@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: transparent !important;
+}
+
+.login_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .50);
+}
+
+.login {
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+    background: #fff;
+    padding: 25px;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, .15);
+    opacity: 1 !important;
+}
+
+.actions {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0d6efd;
+}
+
+.actions span {
+    cursor: pointer;
+}
+
+.form-control {
+    line-height: 1.85 !important;
+}
+
+button:focus {
+    box-shadow: none !important;
+}
