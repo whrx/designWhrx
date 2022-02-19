@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: transparent !important;
 }
 
 .login_container {
@@ -10,6 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgba(0, 0, 0, .50);
 }
 
 .login {
@@ -19,6 +21,7 @@ body {
     background: #fff;
     padding: 25px;
     box-shadow: 1px 3px 6px rgba(0, 0, 0, .15);
+    opacity: 1 !important;
 }
 
 .actions {
