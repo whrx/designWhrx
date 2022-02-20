@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fitness_workout/fitness_workout.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="import" href="../header/header.html">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../scripts/includeHtml.js"></script>
+    <title>Fitness Workout</title>
+</head>
+<body>
+    <div class="header" w3-include-html="../header/header.html"></div>
+    <div class="container">
+        <h3 class="get_off text-center w-100 m-0">
+            Get up to 59% off. Only $8.25/mo.*
+        </h3>
+        <div class="ad_container position-relative w-100 overflow-hidden">
+            <video preload="none" autoplay="true" muted="true" loop="true" playsinline="true" class="video position-absolute d-block">
+                <source src="https://img1.beachbodyimages.com/beachbody/video/upload/v1627405289/homepage-vid/desktop-video-export.mp4" type="video/mp4">
+                <img alt="beachbody" src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627502173/homepage-vid/videoBg.png">
+            </video>
+            <div class="ad_content w-100 position-absolute">
+                <h2 class="ad_title text-center fw-bolder">EVERY BODY <br>
+                    <small>IS A BEACHBODY</small></h2>
+                <p class="ad_desc text-center">Lose up to 9 lbs. in 14 days† with Beachbody— <br>
+                    a community that's over 2 million users strong.</p>
+                <button class="button w-100 fw-bold d-block border-0 text-uppercase">Get 50% Off<sup>*</sup></button>
+            </div>
+        </div>
+        <div class="stream_container d-flex flex-md-row flex-column justify-content-md-evenly justify-content-center align-items-center px-5 py-3">
+            <div class="rating">
+                <img src="../assets/workouts/reviews.svg" alt="reviews">
+            </div>
+            <div class="divider">
+                <img src="../assets/workouts/divider.svg" alt="">
+            </div>
+            <div class="stream">
+                <img src="../assets/workouts/streams.svg" alt="">
+            </div>
+        </div>
+        <div class="logos_container w-100 overflow-hidden">
+            <div class="logos d-flex">
+                <div class="logo d-flex flex-shrink-0">
+                    <img src="https://images.ctfassets.net/imp192nihlxo/2JMz8KpYqvJzyeuTHYufK3/1615c8e6bc5c313abb8ddbb895755b72/Good-Housekeeping-Logo.svg" width="145" alt="logo">
+                    <div class="description">
+                        <p class="text-center">“The 20 Best Workout Apps You Should Download in 2021—#1 Best Overall: Beachbody on Demand.”</p>
+                    </div>
+                </div>
+                <div class="logo d-flex flex-shrink-0">
+                    <img src="https://images.ctfassets.net/imp192nihlxo/2GRd5FBMwQWelF1XbTHlDa/f738d67a66e4b349e53f9adac1994835/business-insider-logo.svg" alt="logo">
+                    <div class="description">
+                        <p class="text-center">“Best Workout Apps for Beginners in 2021 – Beachbody On Demand.”</p>
+                    </div>
+                    <div class="disclaimer">
+                        <p class="text-center">From Business Insider. © 2021 Insider Inc., All rights reserved. Used under license.</p>
+                    </div>
+                </div>
+                <div class="logo d-flex flex-shrink-0">
+                    <img src="https://images.ctfassets.net/imp192nihlxo/3anFE8Ul3bTbKZvQcTVc32/a134cec98d588d2792087e3c3f5be515/forbes-logo.svg" alt="logo">
+                    <div class="description">
+                        <p class="text-center">“The 20 Best Workout Apps You Should Download in 2021—#1 Best Overall: Beachbody on Demand.”</p>
+                    </div>
+                    <div class="disclaimer">
+                        <p class="text-center">From Forbes. © 2021 Forbes.All rights reserved. Used under license.</p>
+                    </div>
+                </div>
+                <div class="logo d-flex flex-shrink-0">
+                    <img src="https://images.ctfassets.net/imp192nihlxo/2JMz8KpYqvJzyeuTHYufK3/1615c8e6bc5c313abb8ddbb895755b72/Good-Housekeeping-Logo.svg" width="145" alt="logo">
+                    <div class="description">
+                        <p class="text-center">“The 20 Best Workout Apps You Should Download in 2021—#1 Best Overall: Beachbody on Demand.”</p>
+                    </div>
+                </div>
+                <div class="logo d-flex flex-shrink-0">
+                    <img src="https://images.ctfassets.net/imp192nihlxo/2GRd5FBMwQWelF1XbTHlDa/f738d67a66e4b349e53f9adac1994835/business-insider-logo.svg" alt="logo">
+                    <div class="description">
+                        <p class="text-center">“Best Workout Apps for Beginners in 2021 – Beachbody On Demand.”</p>
+                    </div>
+                    <div class="disclaimer">
+                        <p class="text-center">From Business Insider. © 2021 Insider Inc., All rights reserved. Used under license.</p>
+                    </div>
+                </div>
+                <div class="logo d-flex flex-shrink-0">
+                    <img src="https://images.ctfassets.net/imp192nihlxo/3anFE8Ul3bTbKZvQcTVc32/a134cec98d588d2792087e3c3f5be515/forbes-logo.svg" alt="logo">
+                    <div class="description">
+                        <p class="text-center">“The 20 Best Workout Apps You Should Download in 2021—#1 Best Overall: Beachbody on Demand.”</p>
+                    </div>
+                    <div class="disclaimer">
+                        <p class="text-center">From Forbes. © 2021 Forbes.All rights reserved. Used under license.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="million_users_container w-100">
+            <section class="custom-carousel before-and-after-carousel">
+                <div class="custom-carousel-container position-relative w-100">
+                  <div class="container-heading__wrapper">
+                    <h3 class="container-heading text-center">Millions are using Beachbody</h3>
+                  </div>
+                  <div id="before-and-after__slider" class="slider loaded position-relative w-100">
+                    <div class="wrapper w-100 overflow-hidden position-relative m-auto">
+                      <div id="slidesWrapper1" class="slides-wrapper d-flex position-relative" active="3" total="4" style="left: 0;">
+                        <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
+                          <div class="card border-0 overflow-hidden">
+                            <div class="card-image-wrapper">
+                              <img class="card-img-top" src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627332854/homepage-vid/jerald.png">
+                            </div>
+                            <div class="card-body position-relative text-left">
+                              <p class="card__description str-name">
+                                Jerald P.
+                              </p>
+                              <p class="card__description str-bold">
+                                Lost 44 lbs.
+                              </p>
+                              <p class="card__description">
+                                “I love that I’m not at a gym aimlessly working out.”
+                                <br>
+                              </p>
+                              <p class="card__disclaimer">
+                                <sup>†</sup>Results vary based on starting point and effort and following Beachbody's exercise and healthy eating plan. Jerald P. is an independent Team Beachbody Coach.
+                              </p>
+                            </div>
+                          </div>
+                        </span>
+                        <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
+                          <div class="card border-0">
+                            <div class="card-image-wrapper">
+                              <img class="card-img-top" src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627332854/homepage-vid/leah.png">
+                            </div>
+                            <div class="card-body">
+                              <p class="card__description str-name">
+                                Leah H.
+                              </p>
+                              <p class="card__description str-bold">
+                                Lost 76 lbs.
+                              </p>
+                              <p class="card__description">
+                                “I feel like a different person. My confidence is through the roof!”
+                                <br>
+                              </p>
+                              <p class="card__disclaimer">
+                                <sup>†</sup>Results vary depending on starting point and effort. Results achieved in 18 months and following Beachbody's exercise and healthy eating plan.
+                              </p>
+                            </div>
+                          </div>
+                        </span>
+                        <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
+                          <div class="card border-0 overflow-hidden">
+                            <div class="card-image-wrapper">
+                              <img class="card-img-top" src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627694073/homepage-vid/jennifer-h-img.png">
+                            </div>
+                            <div class="card-body position-relative text-left">
+                              <p class="card__description str-name">
+                                Jennifer H.
+                              </p>
+                              <p class="card__description str-bold">
+                                Lost 110 lbs.
+                              </p>
+                              <p class="card__description">
+                                "I have more energy and endurance. I look forward to my
+                                morning workouts every day."
+                                <br>
+                              </p>
+                              <p class="card__disclaimer">
+                                <sup>†</sup>Results vary depending on starting point and effort. Results achieved in 27 months and following Beachbody's exercise and healthy eating plan.
+                              </p>
+                            </div>
+                          </div>
+                        </span>
+                        <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
+                            <div class="card border-0 overflow-hidden">
+                              <div class="card-image-wrapper">
+                                <img class="card-img-top" src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627332854/homepage-vid/ryan.png">
+                              </div>
+                              <div class="card-body position-relative text-left">
+                                <p class="card__description str-name">
+                                  Ryan M.
+                                </p>
+                                <p class="card__description str-bold">
+                                  Lost 14 lbs.
+                                </p>
+                                <p class="card__description">
+                                  “Mentally and emotionally I am confident and secure and I know that my age is only a number.”
+                                  <br>
+                                </p>
+                                <p class="card__disclaimer">
+                                  <sup>†</sup>Results vary based on starting point and effort and following Beachbody's exercise and healthy eating plan.
+                                </p>
+                              </div>
+                            </div>
+                          </span>
+                    </div>
+                    </div>
+                    <div class="carousel-controls d-flex justify-content-center align-items-center">
+                      <a id="prev1" class="control prev position-absolute" onclick="prevClick(1)" aria-disabled="true"></a>
+                      <div class="dots-wrap">
+                        <div class="dots-container"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot active"></span><span class="dot"></span><span class="dot"></span></div>
+                      </div>
+                      <a id="next1" class="control next position-absolute" onclick="nextClick(1)" aria-disabled="false"></a>
+                    </div>
+                  </div>
+                </div>
+            </section>
+        </div>
+        <div class="workouts w-100">
+            <section class="custom-carousel before-and-after-carousel">
+                <div class="custom-carousel-container position-relative w-100">
+                  <div class="container-heading__wrapper">
+                    <h3 class="container-heading text-center">Over 1,500 workouts to choose from</h3>
+                  </div>
+                  <div id="before-and-after__slider" class="slider loaded position-relative w-100">
+                    <div class="wrapper w-100 overflow-hidden position-relative m-auto">
+                      <div id="slidesWrapper2" class="slides-wrapper d-flex position-relative" active="3" total="4" style="left: 0;">
+                        <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
+                          <div class="card border-0 overflow-hidden w-100">
+                            <div class="card-image-wrapper">
+                              <img class="card-img-top" src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627937343/homepage-vid/mbf-tile-img.png">
+                            </div>
+                            <div class="card-body position-relative text-center">
+                                <h5 class="card__program-name">
+                                  #mbf Muscle Burns Fat<sup>®</sup>
+                                </h5>
+                                <p class="card__description">
+                                  Build muscle &amp; burn fat with strength training &amp; cardio workouts.
+                                </p>
+                                <img src="https://img1.beachbodyimages.com//beachbody/image/upload/v1627336451/homepage-vid/feat-mbf.svg" alt="mbf Stats" class="card__stats">
+                              </div>
+                          </div>
+                        </span>
+                        <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
+                          <div class="card border-0 overflow-hidden w-100">
+                            <div class="card-image-wrapper">
+                              <img class="card-img-top" src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627337756/homepage-vid/21fix.png">
+                            </div>
+                            <div class="card-body position-relative text-center">
+                                <h5 class="card__program-name">
+                                  21 Day Fix<sup>®</sup>
+                                </h5>
+                                <p class="card__description">
+                                  Simple fitness, simple eating, <br>fast results.
+                                </p>
+                                <img src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627336447/homepage-vid/feat-21day.svg" alt="21 Day fix Stats" class="card__stats">
+                              </div>
+                          </div>
+                        </span>
+                        <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
+                          <div class="card border-0 overflow-hidden w-100">
+                            <div class="card-image-wrapper">
+                              <img class="card-img-top" src="https://img1.beachbodyimages.com//beachbody/image/upload/v1627337756/homepage-vid/insanity.png">
+                            </div>
+                            <div class="card-body position-relative text-center">
+                                <h5 class="card__program-name">
+                                  INSANITY<sup>®</sup>MAX:30
+                                </h5>
+                                <p class="card__description">
+                                  Maxing out your efforts every day leads to maximizing your full potential.
+                                </p>
+                                <img src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627336450/homepage-vid/feat-insanity.svg" alt="insanity Stats" class="card__stats">
+                              </div>
+                          </div>
+                        </span>
+                        <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
+                            <div class="card border-0 overflow-hidden w-100">
+                              <div class="card-image-wrapper">
+                                <img class="card-img-top" src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627337757/homepage-vid/piyo.png">
+                              </div>
+                              <div class="card-body position-relative text-center">
+                                <h5 class="card__program-name">
+                                  PiYo<sup>®</sup>
+                                </h5>
+                                <p class="card__description">
+                                  The perfect combination of Pilates, yoga, and fat-burning cardio.
+                                </p>
+                                <img src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627336452/homepage-vid/feat-piyo.svg" alt="Piyo Stats" class="card__stats">
+                              </div>
+                            </div>
+                          </span>
+                    </div>
+                    </div>
+                    <div class="carousel-controls d-flex justify-content-center align-items-center">
+                      <a id="prev2" class="control prev position-absolute" onclick="prevClick(2)" aria-disabled="true"></a>
+                      <div class="dots-wrap">
+                        <div class="dots-container"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot active"></span><span class="dot"></span><span class="dot"></span></div>
+                      </div>
+                      <a id="next2" class="control next position-absolute" onclick="nextClick(2)" aria-disabled="false"></a>
+                    </div>
+                  </div>
+                </div>
+            </section>
+        </div>
+        <div class="nutrition_container w-100 d-flex justify-content-between align-items-center">
+            <img src="https://images.ctfassets.net/imp192nihlxo/4YHtoI102WcirMK4ff1ZvG/ea2eb7348a806480f66a675683a05ed1/plate-stuff-dk.png" alt="nutrition">
+            <div class="text-container position-relative text-end">
+                <div class="title">
+                    <h2>Nutrition to help <br>achieve your results</h2>
+                </div>
+                <div class="description">
+                    <p>Your meal plan is specially designed to help you get the most out of your fitness program.</p>
+                </div>
+                <div class="cta">
+                    <button class="button w-100 fw-bold d-block border-0 text-uppercase" style="margin: 20px 0 0 auto;">Get 50% Off<sup>*</sup></button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="community_container">
+            <div class="text_container text-center">
+                <div class="title">
+                    <h2>Community that supports you</h2>
+                </div>
+                <div class="description">
+                    <p class=""m-0>Join a BODgroup or Beachbody Challenge. We work out together, cheer each other on, and celebrate each other’s success.</p>
+                </div>
+            </div>
+            <div class="animate_wrapper">
+                <div class="animate_container w-100 d-flex">
+                    <div class="_card d-flex">
+                        <img src="https://images.ctfassets.net/imp192nihlxo/34KuS4RlaucKwGlyUNaIXe/96a9edf71f68bf93840058abe1c955a7/com1.png" alt="">
+                        <div class="card_text text-center">
+                            <p>“These programs have been such a light in my life and one of my best decisions!!!😌”️</p>
+                        </div>
+                    </div>
+                    <div class="_card d-flex">
+                        <img src="https://images.ctfassets.net/imp192nihlxo/6KUYFYDZ0mNZETsiKH8Gpc/d0ef617ab5ba115e0c914365cdaa16c7/com2.png" alt="">
+                        <div class="card_text text-center">
+                            <p>“Let’s bring on the sweaty selfies for National Selfie Day!”</p>
+                        </div>
+                    </div>
+                    <div class="_card d-flex">
+                        <img src="https://images.ctfassets.net/imp192nihlxo/1pDny7mOrCmgC9StY1wTre/c9a499eb3b87aab60a61d918a4001700/com3.png" alt="">
+                        <div class="card_text text-center">
+                            <p>“Putting in THE WORK this Friday!”</p>
+                        </div>
+                    </div>
+                    <div class="_card d-flex">
+                        <img src="https://images.ctfassets.net/imp192nihlxo/33uAfE7FvlIa0ZQhecJTqR/31264245a75570627e485029a748b600/com4.png" alt="">
+                        <div class="card_text text-center">
+                            <p>“Drop a ‘💪’ if you’re loving Freak Week!”</p>
+                        </div>
+                    </div>
+                    <div class="_card d-flex">
+                        <img src="https://images.ctfassets.net/imp192nihlxo/5tak867aNgY6e6NAWLkqmu/5c40d380e49dea79e7994317c354e8d1/com5.png" alt="">
+                        <div class="card_text text-center">
+                            <p>“Calling all @9WeekControlFreak fans – what’s your absolute favorite quote from @AutumnCalabrese?”</p>
+                        </div>
+                    </div>
+                    <div class="_card d-flex">
+                        <img src="https://images.ctfassets.net/imp192nihlxo/38L4NNQGx291jp1UdjWghA/9474431c9dba7217c40e14a4170ddc22/com6.png" alt="">
+                        <div class="card_text text-center">
+                            <p>“Let’s bring on the sweaty selfies for National Selfie Day!”</p>
+                        </div>
+                    </div>
+                    <div class="_card d-flex">
+                        <img src="https://images.ctfassets.net/imp192nihlxo/5daHNU4wtK2ErrYDJKriYb/2e817c0cc98a1f318a17cafffb74f898/com7.png" alt="">
+                        <div class="card_text text-center">
+                            <p>“I WANT YOU to choose YOU! I WANT YOU to join me!”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="trainee_container">
+            <section class="custom-carousel before-and-after-carousel">
+                <div class="custom-carousel-container position-relative w-100" style="max-width: 1100px;">
+                  <div class="container-heading__wrapper">
+                    <h3 class="container-heading text-center">Meet Our Trainers</h3>
+                  </div>
+                  <div id="before-and-after__slider" class="slider loaded position-relative w-100">
+                    <div class="wrapper w-100 overflow-hidden position-relative m-auto">
+                      <div id="slidesWrapper3" class="slides-wrapper d-flex position-relative" active="4" total="5" style="left: 0;">
+                        <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
+                          <div class="card border-0 overflow-hidden">
+                            <div class="card-image-wrapper">
+                              <img class="card-img-top" src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627694313/homepage-vid/tony-img.png">
+                            </div>
+                            <div class="card-body position-relative text-center" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                <h5 class="card__trainer-name" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  Tony Horton
+                                </h5>
+                                <p class="card__description" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  Featured Program: P90X®
+                                </p>
+                                <p class="card__quote" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  "With a little tough love and a touch of humor, I'm on a mission to rock your world and unlock your full potential."
+                                </p>
+                              </div>
+                          </div>
+                        </span>
+                        <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
+                          <div class="card border-0">
+                            <div class="card-image-wrapper">
+                              <img class="card-img-top" src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627694221/homepage-vid/elise-img.png">
+                            </div>
+                            <div class="card-body position-relative text-center" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                <h5 class="card__trainer-name" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  Elise Joan
+                                </h5>
+                                <p class="card__description" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  Featured Program: Barre Blend™
+                                </p>
+                                <p class="card__quote" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  "As a soloist with a ballet company, I learned how to blend movements that help you develop that long, lean look."
+                                </p>
+                              </div>
+                          </div>
+                        </span>
+                        <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
+                          <div class="card border-0 overflow-hidden">
+                            <div class="card-image-wrapper">
+                              <img class="card-img-top" src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627694354/homepage-vid/joel-img.png">
+                            </div>
+                            <div class="card-body position-relative text-center" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                <h5 class="card__trainer-name" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  Joel Freeman
+                                </h5>
+                                <p class="card__description" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  Featured Program: 10 Rounds®
+                                </p>
+                                <p class="card__quote" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  "If you want the shredded ‘cut' look, I'm your cornerman. I'll help you enter the ‘zone' where the fun takes over."
+                                </p>
+                              </div>
+                          </div>
+                        </span>
+                        <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
+                            <div class="card border-0 overflow-hidden">
+                              <div class="card-image-wrapper">
+                                <img class="card-img-top" src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627694375/homepage-vid/jericho-img.png">
+                              </div>
+                              <div class="card-body position-relative text-center" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                <h5 class="card__trainer-name" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  Jericho McMatthews
+                                </h5>
+                                <p class="card__description" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  Featured Program: Morning Meltdown 100™
+                                </p>
+                                <p class="card__quote" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  "I love to use music to keep the energy flowing and the calories burning. I'll help you start the day the right way."
+                                </p>
+                              </div>
+                            </div>
+                        </span>
+                        <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
+                            <div class="card border-0 overflow-hidden">
+                              <div class="card-image-wrapper">
+                                <img class="card-img-top" src="https://img1.beachbodyimages.com/beachbody/image/upload/v1627694221/homepage-vid/chalene-img.png">
+                              </div>
+                              <div class="card-body position-relative text-center" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                <h5 class="card__trainer-name" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  Chalene Johnson
+                                </h5>
+                                <p class="card__description" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  Featured Program: PiYo®
+                                </p>
+                                <p class="card__quote" data-optly-c9820bd0cda046efa9b6d7e4c794cd45="">
+                                  "I've created fat-burning workouts that are also gentle on your body. So anyone can do them and lose weight."
+                                </p>
+                              </div>
+                            </div>
+                        </span>
+                    </div>
+                    </div>
+                    <div class="carousel-controls d-flex justify-content-center align-items-center">
+                      <a id="prev3" class="control prev position-absolute" onclick="prevClick(3)" aria-disabled="true"></a>
+                      <div class="dots-wrap">
+                        <div class="dots-container"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot active"></span><span class="dot"></span><span class="dot"></span></div>
+                      </div>
+                      <a id="next3" class="control next position-absolute" onclick="nextClick(3)" aria-disabled="false"></a>
+                    </div>
+                  </div>
+                </div>
+            </section>
+        </div>
+        <div class="easy_container">
+            <h2 class="text-center">It's easy to get started!</h2>
+            <div class="image_container d-flex justify-content-center">
+                <img src="https://images.ctfassets.net/imp192nihlxo/NQK2wsJywvBmOMk3mA4BP/c04be89a4b4436900baec888ab076d60/easy-start.png" alt="easy_to_use">
+            </div>
+            <button class="button w-100 fw-bold d-block border-0 text-uppercase">Get 50% Off<sup>*</sup></button>
+        </div>
+        <div class="results_container">
+            <h3 class="title text-center text-light">Get better results at home</h3>
+            <p class="description text-center text-light m-0 fw-bold">Access our massive workout library, save time and money, work out on your schedule</p>
+            <div class="pt-4">
+                <button class="button w-100 fw-bold d-block border-0 text-uppercase">Get 50% Off<sup>*</sup></button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        includeHTML();
+
+        let left1 = 0;
+        let left2 = 0;
+        let left3 = 0;
+        let wrapper;
+        let prev;
+        let next;
+        let wrapperWidth;
+        let active;
+        let singleWidth;
+
+        function setEle(id, prev_id, next_id) {
+            wrapper = document.getElementById(id);
+            prev = document.getElementById(prev_id);
+            next = document.getElementById(next_id);
+            wrapperWidth = wrapper.clientWidth;
+            active = Number(wrapper.attributes.getNamedItem('active').value);
+            total = Number(wrapper.attributes.getNamedItem('total').value);
+            singleWidth = wrapperWidth / active;
+        }
+
+        function prevClick(idNo) {
+            setEle(`slidesWrapper${idNo}`, `prev${idNo}`, `next${idNo}`);
+            let disabled = prev.attributes.getNamedItem('aria-disabled').value;
+            if (disabled == 'false') {
+                if (idNo == 1) {
+                    left1 = left1 + singleWidth;
+                    wrapper.style['left'] = `${left1}px`;
+                    setDisabled(left1);
+                } else if (idNo == 2) {
+                    left2 = left2 + singleWidth;
+                    wrapper.style['left'] = `${left2}px`;
+                    setDisabled(left2);
+                } else if (idNo == 3) {
+                    left3 = left3 + singleWidth;
+                    wrapper.style['left'] = `${left3}px`;
+                    setDisabled(left3);
+                }
+            }
+        }
+
+        function nextClick(idNo) {
+            setEle(`slidesWrapper${idNo}`, `prev${idNo}`, `next${idNo}`);
+            let disabled = next.attributes.getNamedItem('aria-disabled').value;
+            if (disabled == 'false') {
+                if (idNo == 1) {
+                    left1 = left1 - singleWidth;
+                    wrapper.style['left'] = `${left1}px`;
+                    setDisabled(left1);
+                }
+                else if (idNo == 2) {
+                    left2 = left2 - singleWidth;
+                    wrapper.style['left'] = `${left2}px`;
+                    setDisabled(left2);
+                }
+                else if (idNo == 3) {
+                    left3 = left3 - singleWidth;
+                    wrapper.style['left'] = `${left3}px`;
+                    setDisabled(left3);
+                }
+            }
+        }
+
+        function setDisabled(_left) {
+            let lastActive = (total - active) * singleWidth;
+            if (_left == -lastActive) {
+                next.setAttribute('aria-disabled', true);
+                prev.setAttribute('aria-disabled', false);
+            } else if (_left == 0) {
+                prev.setAttribute('aria-disabled', true);
+                next.setAttribute('aria-disabled', false);
+            } else {
+                prev.setAttribute('aria-disabled', false);
+                next.setAttribute('aria-disabled', false);
+            }
+        }
+    </script>
+</body>
+</html>
