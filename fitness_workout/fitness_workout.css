@@ -192,6 +192,7 @@ button.button {
 }
 .custom-carousel .control[aria-disabled="true"] {
     opacity: 0.5;
+    cursor: default;
 }
 .custom-carousel .prev, .custom-carousel .next {
     background-position: center;
@@ -347,6 +348,67 @@ button.button {
     font-size: 14px;
     line-height: 20px;
     margin: 0;
+}
+.faq_container {
+    width: 100%;
+    max-width: 1280px;
+    padding: 50px 90px;
+    margin: 0 auto;
+    background-color: #f4f6f8;
+}
+.accordian_container {
+    box-sizing: border-box;
+}
+.accordian_title {
+    color: rgb(13, 3, 2);
+    margin: 20px 0;
+}
+.accordian_title h2 {
+    font-size: 34px;
+    text-align: center;
+    line-height: 44px;
+    margin: 0;
+}
+.accordion-item {
+    background: transparent !important;
+    border: none !important;
+}
+.accordion-button {
+    background-color: transparent !important;
+    padding: 16px 0 !important;
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 1.5;
+    color: rgb(13, 3, 2) !important;
+}
+.accordion-button:not(.collapsed) {
+    background: transparent !important;
+    box-shadow: none !important;
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 1.5;
+    color: rgb(13, 3, 2) !important;
+}
+.accordion-button::after {
+    background-image: url('../assets/workouts/accordian_open.svg') !important;
+    margin-right: 16px !important;
+    width: 15px !important;
+    height: 15px !important;
+    background-position: center !important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../assets/workouts/accordian_close.svg') !important;
+}
+.accordion-body {
+    padding: 10px 0 !important;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 1.5 !important;
+    color: #212529 !important;
+}
+hr {
+    background-color: rgb(124, 124, 124) !important;
+    margin: 15px 0 !important;
 }
 
 @keyframes scrolling {
