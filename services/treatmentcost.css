@@ -159,4 +159,27 @@ body {
   font-size: 12px;
 }
 
+.macha img{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+
+.dippp{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.blublo{
+  height: 90vh;
+  background-image: linear-gradient(to right, rgb(1, 47, 61), rgb(37, 22, 252));
+  padding: 10%;
+}
+
+.blublo p{
+  color: white;
+  font-size: 22px;
+  width: 50%;
+}
 
