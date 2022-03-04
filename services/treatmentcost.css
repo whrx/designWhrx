@@ -1,0 +1,162 @@
+.margt {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgbd {
+    height: 90vh;
+    background-image: linear-gradient(to right, rgb(0, 195, 255), rgb(37, 22, 252));
+    padding: 10%;
+    margin-bottom: 5%;
+}
+
+.smit {
+    color: white;
+}
+
+.smit img {
+    height: 10%;
+    margin-bottom: 10px;
+}
+
+.smit h1 {
+    font-weight: normal;
+}
+
+.smit hr {
+    width: 30%;
+    color: white;
+}
+
+.smit p {
+    font-weight: lighter;
+
+}
+
+.bgsew {
+    color: white;
+}
+
+.bgsew h3 {
+    margin-top: 70%;
+    padding-left: 40px;
+    font-weight: lighter;
+}
+
+
+.swat1 {
+    margin: 2%;
+    color: grey;
+    font-weight: lighter;
+}
+
+.swat1 p {
+    font-size: 16px;
+}
+
+.imtim {
+    margin-bottom: 5%;
+}
+
+.omt{
+    margin-top: 10%;
+    background-image: url(../assets/ailment-usp.webp);
+    height: 40vh;
+    background-size: auto 400px;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+.omtt1{
+    padding: 10%;
+    padding-left: 5%;
+}
+
+/* faq */
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
+
+
+
+.accordion {
+  width: 42rem;
+  padding: 1.2rem 0;
+  border-radius: 1rem;
+  background: white;
+/*   box-shadow: 0 0 5rem lightgrey; */
+}
+
+.accordion__heading {
+  margin-bottom: 1rem;
+  padding: 0 1.4rem;
+}
+
+.accordion__item:not(:last-child) {
+  border-bottom: 1px solid lightgrey;
+}
+
+.accordion__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  background: white;
+  border: none;
+  outline: none;
+  color: var(--color-text);
+  font-size: 1.2rem;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.accordion__btn:hover {
+  color: var(--color-purple);
+  background: hsl(248, 53%, 97%);
+}
+
+.accordion__item--active .accordion__btn {
+  color: var(--color-purple);
+  border-bottom: 2px solid var(--color-purple);
+  background: hsl(248, 53%, 97%);
+}
+
+.fa-lightbulb {
+  padding-right: 1rem;
+}
+.accordion__icon {
+  border-radius: 50%;
+  transform: rotate(0deg);
+  transition: 0.3s ease-in-out;
+  opacity: 0.9;
+}
+.accordion__item--active .accordion__icon {
+  transform: rotate(135deg);
+}
+
+.accordion__content {
+  font-weight: 300;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  color: var(--color-text-muted);
+  transform: translateX(16px);
+  transition: max-height 0.5s ease, opacity 0.5s, transform 0.5s;
+}
+.accordion__content p {
+  padding: 1rem 1.8rem;
+}
+
+.accordion__item--active .accordion__content {
+  opacity: 1;
+  transform: translateX(0px);
+  max-height: 100vh;
+}
+.smp p{
+  font-size: 12px;
+}
+
+
