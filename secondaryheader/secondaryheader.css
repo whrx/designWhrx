@@ -1,0 +1,14 @@
+nav{    
+    margin: 40px;
+    text-align: center;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: grey;
+    text-decoration: underline;
+}
