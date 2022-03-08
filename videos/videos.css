@@ -1,0 +1,62 @@
+.bod {
+    margin: 0rem;
+    margin-top: 8rem;
+}
+
+.bod1 {
+    margin: 20rem;
+    margin-top: 5rem;
+}
+
+.tet h1 {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.gotq {
+    margin-top: 5rem;
+}
+
+.imn {
+    margin-top: 5rem;
+}
+
+.imnt img {
+    height: 7rem;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.imnt img:hover {
+    box-shadow: 5px 5px 5px 5px rgba(185, 185, 185, 0.568);
+}
+
+.imnt h5 {
+    font-size: 18px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.secndhed p {
+    font-weight: bolder;
+}
+.secndhed{
+    display: flex;
+  justify-content: space-between;
+}

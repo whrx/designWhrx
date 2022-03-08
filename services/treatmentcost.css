@@ -197,7 +197,7 @@ body {
   background-color: rgb(231, 231, 231);
   padding: 20px;
   color: black;
-  width: 90%;
+  width: 80%;
   margin-left: 90px;
 }
 
@@ -215,6 +215,9 @@ body {
   justify-content: space-between;
 }
 
+.twofou h4{
+  padding-top: 30px;
+}
 
 .twofou img {
   height: 100px;
@@ -227,6 +230,9 @@ body {
   color: white;
   background-color: #033797;
   padding: 10px;
+}
 
-
+.bgb{
+  height: 70vh;
+  background-color: black;
 }
