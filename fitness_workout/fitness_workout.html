@@ -28,10 +28,10 @@
                     <small>IS A BEACHBODY</small></h2>
                 <p class="ad_desc text-center">Lose up to 9 lbs. in 14 days† with Beachbody— <br>
                     a community that's over 2 million users strong.</p>
-                <button class="button w-100 fw-bold d-block border-0 text-uppercase">Get 50% Off<sup>*</sup></button>
+                <button class="button w-100 fw-bold d-md-block d-none border-0 text-uppercase">Get 50% Off<sup>*</sup></button>
             </div>
         </div>
-        <div class="stream_container d-flex flex-md-row flex-column justify-content-md-evenly justify-content-center align-items-center px-5 py-3">
+        <div class="stream_container d-flex flex-lg-row flex-column justify-content-lg-evenly justify-content-center align-items-center px-md-5 px-3 py-3">
             <div class="rating">
                 <img src="../assets/workouts/reviews.svg" alt="reviews">
             </div>
@@ -102,7 +102,7 @@
                   </div>
                   <div id="before-and-after__slider" class="slider loaded position-relative w-100">
                     <div class="wrapper w-100 overflow-hidden position-relative m-auto">
-                      <div id="slidesWrapper1" class="slides-wrapper d-flex position-relative" active="3" total="4" style="left: 0;">
+                      <div id="slidesWrapper1" class="slides-wrapper d-flex position-relative" active="3" total="4" style="left: 0;" onscroll="onScroll(1)">
                         <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
                           <div class="card border-0 overflow-hidden">
                             <div class="card-image-wrapper">
@@ -194,7 +194,7 @@
                           </span>
                     </div>
                     </div>
-                    <div class="carousel-controls d-flex justify-content-center align-items-center">
+                    <div class="carousel-controls d-lg-flex justify-content-center align-items-center d-none">
                       <a id="prev1" class="control prev position-absolute" onclick="prevClick(1)" aria-disabled="true"></a>
                       <div class="dots-wrap">
                         <div class="dots-container"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot active"></span><span class="dot"></span><span class="dot"></span></div>
@@ -213,7 +213,7 @@
                   </div>
                   <div id="before-and-after__slider" class="slider loaded position-relative w-100">
                     <div class="wrapper w-100 overflow-hidden position-relative m-auto">
-                      <div id="slidesWrapper2" class="slides-wrapper d-flex position-relative" active="3" total="4" style="left: 0;">
+                      <div id="slidesWrapper2" class="slides-wrapper d-flex position-relative" active="3" total="4" style="left: 0;" onscroll="onScroll(2)">
                         <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
                           <div class="card border-0 overflow-hidden w-100">
                             <div class="card-image-wrapper">
@@ -280,7 +280,7 @@
                           </span>
                     </div>
                     </div>
-                    <div class="carousel-controls d-flex justify-content-center align-items-center">
+                    <div class="carousel-controls d-lg-flex justify-content-center align-items-center d-none">
                       <a id="prev2" class="control prev position-absolute" onclick="prevClick(2)" aria-disabled="true"></a>
                       <div class="dots-wrap">
                         <div class="dots-container"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot active"></span><span class="dot"></span><span class="dot"></span></div>
@@ -291,17 +291,18 @@
                 </div>
             </section>
         </div>
-        <div class="nutrition_container w-100 d-flex justify-content-between align-items-center">
-            <img src="https://images.ctfassets.net/imp192nihlxo/4YHtoI102WcirMK4ff1ZvG/ea2eb7348a806480f66a675683a05ed1/plate-stuff-dk.png" alt="nutrition">
-            <div class="text-container position-relative text-end">
+        <div class="nutrition_container w-100 d-flex justify-content-between align-items-center position-relative">
+            <img class="d-lg-block d-none" src="https://images.ctfassets.net/imp192nihlxo/4YHtoI102WcirMK4ff1ZvG/ea2eb7348a806480f66a675683a05ed1/plate-stuff-dk.png" alt="nutrition">
+            <img class="d-lg-none d-block" src="https://images.ctfassets.net/imp192nihlxo/SPmPT8lFBruxN5DJPf8JZ/0d9d12a71e03f6301adc8950f05cb46c/img-bg.png" alt="nutrition">
+            <div class="text-container text-end">
                 <div class="title">
                     <h2>Nutrition to help <br>achieve your results</h2>
                 </div>
                 <div class="description">
                     <p>Your meal plan is specially designed to help you get the most out of your fitness program.</p>
                 </div>
-                <div class="cta">
-                    <button class="button w-100 fw-bold d-block border-0 text-uppercase" style="margin: 20px 0 0 auto;">Get 50% Off<sup>*</sup></button>
+                <div class="cta d-lg-block d-none">
+                    <button class="button w-100 fw-bold d-md-block d-none border-0 text-uppercase" style="margin: 20px 0 0 auto;">Get 50% Off<sup>*</sup></button>
                 </div>
             </div>
         </div>
@@ -371,7 +372,7 @@
                   </div>
                   <div id="before-and-after__slider" class="slider loaded position-relative w-100">
                     <div class="wrapper w-100 overflow-hidden position-relative m-auto">
-                      <div id="slidesWrapper3" class="slides-wrapper d-flex position-relative" active="4" total="5" style="left: 0;">
+                      <div id="slidesWrapper3" class="slides-wrapper d-flex position-relative" active="4" total="5" style="left: 0;" onscroll="onScroll(3)">
                         <span class="slide d-flex position-relative justify-content-center flex-row flex-shrink-0">
                           <div class="card border-0 overflow-hidden">
                             <div class="card-image-wrapper">
@@ -464,7 +465,7 @@
                         </span>
                     </div>
                     </div>
-                    <div class="carousel-controls d-flex justify-content-center align-items-center">
+                    <div class="carousel-controls d-lg-flex justify-content-center align-items-center d-none">
                       <a id="prev3" class="control prev position-absolute" onclick="prevClick(3)" aria-disabled="true"></a>
                       <div class="dots-wrap">
                         <div class="dots-container"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot active"></span><span class="dot"></span><span class="dot"></span></div>
@@ -478,15 +479,21 @@
         <div class="easy_container">
             <h2 class="text-center">It's easy to get started!</h2>
             <div class="image_container d-flex justify-content-center">
-                <img src="https://images.ctfassets.net/imp192nihlxo/NQK2wsJywvBmOMk3mA4BP/c04be89a4b4436900baec888ab076d60/easy-start.png" alt="easy_to_use">
+                <img class="d-md-block d-none w-100" src="https://images.ctfassets.net/imp192nihlxo/NQK2wsJywvBmOMk3mA4BP/c04be89a4b4436900baec888ab076d60/easy-start.png" alt="easy_to_use">
+                <div class="images d-md-none d-flex flex-column align-items-start w-100">
+                  <img src="https://images.ctfassets.net/imp192nihlxo/nRFh9GbYWRyqRBJtqUakO/24a815b65057577b64aac5de768bb89e/join-today.svg" alt="">
+                  <img src="https://images.ctfassets.net/imp192nihlxo/4TJOx1L5mjmwsaAssmNZTy/f23477f1bf0a64a1a48cd21184f5a04b/select-program.svg" alt="">
+                  <img src="https://images.ctfassets.net/imp192nihlxo/1U0Nn361S34g8jsBB23iTK/1e461937649fe35f8cd0104727a052b4/follow-plan.svg" alt="">
+                  <img src="https://images.ctfassets.net/imp192nihlxo/1WKlb58qSU2lFnF1ebN5xb/7b1480894ee93ca5d3feb14708860f2e/see-results.svg" alt="">
+                </div>
             </div>
-            <button class="button w-100 fw-bold d-block border-0 text-uppercase">Get 50% Off<sup>*</sup></button>
+            <button class="button w-100 fw-bold d-md-block d-none border-0 text-uppercase">Get 50% Off<sup>*</sup></button>
         </div>
         <div class="results_container">
             <h3 class="title text-center text-light">Get better results at home</h3>
             <p class="description text-center text-light m-0 fw-bold">Access our massive workout library, save time and money, work out on your schedule</p>
             <div class="pt-4">
-                <button class="button w-100 fw-bold d-block border-0 text-uppercase">Get 50% Off<sup>*</sup></button>
+                <button class="button w-100 fw-bold d-md-block d-none border-0 text-uppercase">Get 50% Off<sup>*</sup></button>
             </div>
         </div>
         <div class="faq_container">
@@ -577,6 +584,17 @@
             </div>
           </div>
         </div>
+
+        <div id="offer_cont" class="offer_container position-fixed w-100 m-0 p-0">
+          <div style="padding: 10px 0 30px;">
+            <div class="title w-100">
+              <h3 class="w-100 text-center">When you join today!</h3>
+            </div>
+            <div class="w-100" style="padding: 0 20px;">
+              <button class="button w-100 fw-bold d-block border-0 m-0" style="background: #2490FF;max-width: 100%;">GET 50% OFF<sup>*</sup></button>
+            </div>
+          </div>
+        </div>
     </div>
 
     <script type="text/javascript">
@@ -591,6 +609,42 @@
         let wrapperWidth;
         let active;
         let singleWidth;
+
+        window.document.addEventListener('scroll', (event) => {
+          let top = document.body.getBoundingClientRect().top;
+          let width = document.body.getBoundingClientRect().width;
+          let ele = document.getElementById('offer_cont');
+          ele.classList.remove('d-none');
+          ele.classList.add('d-md-none');
+          ele.classList.add('d-block');
+          if (width <= 768 && top > -700) {
+            ele.classList.remove('d-md-none');
+            ele.classList.remove('d-block');
+            ele.classList.add('d-none');
+          }
+        });
+
+        getSlidesCount();
+
+        function getSlidesCount() {
+          let noOfSlides;
+          for(let i = 1;i < 4;i++) {
+            if (window.innerWidth <= 576) {
+              noOfSlides = 1;
+            } else if (window.innerWidth <= 992) {
+              noOfSlides = 2;
+            } else {
+              if (i == 3) noOfSlides = 4;
+              else noOfSlides = 3;
+            }
+            let wrapper = document.getElementById(`slidesWrapper${i}`);
+            wrapper.setAttribute('active', noOfSlides);
+          }
+        }
+
+        window.addEventListener('resize', () => {
+          getSlidesCount();
+        })
 
         function setEle(id, prev_id, next_id) {
             wrapper = document.getElementById(id);
